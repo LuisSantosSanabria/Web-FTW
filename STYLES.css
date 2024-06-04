@@ -1,0 +1,187 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    background-image: url('imagenes/Fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 150px;
+    height: 90px;
+}
+
+
+header {
+    background-color: rgba(151, 24, 224, 0.6);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navegacion */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(7, 7, 7)f0f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.Producto {
+    border: 1px solid rgba(151, 24, 224, 0.8);
+    background-color: rgba(151, 24, 224, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* animaciones de las imagens*/
+.Producto img {
+    background-color: #f0f0f0;
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.Producto img:hover {
+    box-shadow: 0 0 20px rgba(151, 24, 224, 0.8);;
+    transform: scale(1.05);
+}
+
+/* Registro y Acerca de */
+#register .container,
+#about .container {
+    text-align: center;
+}
+
+#mapa {
+    margin: auto;
+    background-color: #9718e0;
+    border: 1px solid rgba(151, 24, 224, 0.8);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+#mapa h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* footer */
+footer {
+    background-color: rgba(151, 24, 224, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones */
+button {
+    background-color: #9718e0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7312b7;
+}
+
+/* chow data */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    width: 50%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #9718e0;
+    box-shadow: 0 0 5px rgba(151, 24, 224, 0.5);
+}
+
+#register {
+        border: 1px solid rgba(151, 24, 224, 0.8);
+        background-color: rgba(151, 24, 224, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
