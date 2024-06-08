@@ -39,13 +39,59 @@ header {
     padding: 0;
 }
 
+/*hamburguesa de nav*/
+.navbar-toggler .navbar-toggler {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+/*borra el borde negro*/
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler .navbar-toggler::before,
+.navbar-toggler .navbar-toggler::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white; /* Color de las líneas */
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+/* Posición de la línea superior */
+.navbar-toggler .navbar-toggler::before {
+    top: 8px; 
+}
+
+/* Posición de la línea inferior */
+.navbar-toggler .navbar-toggler::after {
+    top: 16px; 
+}
+
+/*trans. de la lineas*/
+.navbar-toggler.collapsed .navbar-toggler::before {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.navbar-toggler.collapsed .navbar-toggler::after {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+
+/*palabra ttw....*/
 .navbar-brand {
     color: #ffffff;
     font-family: "Coiny", system-ui; /* font de google*/
     font-size: 30px;
     text-decoration: none;
 }
-
 
 .navbar-brand:hover {
     color: #8610d4;
