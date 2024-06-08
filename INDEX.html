@@ -14,31 +14,48 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
     <title>FTW - Ropa del West</title>
+    <!--cdn de btrp-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Enlazar archivo CSS externo -->
+    <!--Hoja de estilo-->   
+        <link rel="stylesheet" href="styles.css" />
+
+    <!--Tipografias de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="hoja de estilo">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Coiny&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <div class="cabecera container d-flex justify-content-between align-items-center py-3">
-        </div>
-
+        <div class="cabecera container d-flex justify-content-between align-items-center py-3"></div>
         <!--Barra de navehgacion-->
-        <header class="bg-body-tertiary py-3">
+        <header class="bg-body-tertiary py-3 fixed-top">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <img src="imagenes/LogoG.png" alt="FromTheWest" class="logo" />
                 <nav class="navbar navbar-expand-md">
                     <div class="container-fluid">
-                        <a class="navbar-brand ms-3" href="#">FTW-TIENDA</a>
+                        <a class="navbar-brand ms-3" href="#ftwNav">FTW-TIENDA</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-wrap">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                                 </li>
@@ -46,16 +63,16 @@
                                     <a class="nav-link" href="#nosotros">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#register">Registro</a>
+                                    <a class="nav-link" href="#zapatillas">Zapatillas</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#ropa">Ropa</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#zapatillas">Zapatillas</a>
+                                    <a class="nav-link" href="#accesorios">Accesorios</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#accesorios">Accesorios</a>
+                                    <a class="nav-link" href="#register">Registro</a>
                                 </li>
                             </ul>
                         </div>
@@ -63,15 +80,16 @@
                 </nav>
             </div>
         </header>
-        <main>
 
+        <main>
             <!--Banner-->
             <div class="row">
                 <div class="col-md-12">
-                    <img src="imagenes/Banner2.png " class="d-block w-100" alt="Banner">
+                    <img src="imagenes/Banner3.png " class="d-block w-100" alt="Banner">
                 </div>
             </div>
 
+            <!--Producto descatado-->
             <section id="inicio" class="content-section py-5">
                 <div class="container">
                     <h2 class="mb-4">Productos destacados</h2>
@@ -130,7 +148,7 @@
             <section id="zapatillas" class="content-section py-5">
                 <div class="container">
                     <h2 class="mb-4">Zapatillas</h2>
-                    <div class="Producto mb-4">
+                    <div class="Producto col-lg-10 mb-4">
                         <img src="imagenes/AdidasCampus.png" alt="AdidasCampus" class="img-fluid" />
                         <h3>Adidas Campus</h3>
                         <p>Todos los colores disponibles, talles también.</p>
@@ -193,7 +211,7 @@
             <section id="ropa" class="content-section py-5">
                 <div class="container">
                     <h2 class="mb-4">Ropa</h2>
-                    <div class="Producto">
+                    <div class="Producto col-lg-10 mb-4">
                         <img src="imagenes/BuzoPuma2.jpg" alt="BuzoPuma" class="img-fluid" />
                         <h3>Buzo Adidas Retro</h3>
                         <p>Todos los colores disponibles, talles tambien.</p>
@@ -254,7 +272,7 @@
             <section id="accesorios" class="content-section py-5">
                 <div class="container">
                     <h2 class="mb-4">Accesorios</h2>
-                    <div class="Producto">
+                    <div class="Producto col-lg-10 mb-4">
                         <img src="imagenes/GorraDC.jpg" alt="BuzoPuma" class="img-fluid" />
                         <h3>Gorra DC</h3>
                         <p>Todos los colores disponibles, talles tambien.</p>
@@ -344,58 +362,81 @@
             <!--Seccion de Registro-->
             <section id="register" class="content-section py-5">
                 <div class="container">
-                    <h2 class="mb-4">Registro de Usuario</h2>
-                    <form action="show_data.html" target="_blank" class="row g-3">
-                        <div class="col-md-6">
-                            <label for="name" class="form-label">Nombre:</label>
-                            <input type="text" id="name" name="name" class="form-control" required />
+                    <h2 class="mb-4 text-center">Registro de Usuario</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="register-content p-4">
+                                <form action="show_data.html" target="_blank" class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Nombre:</label>
+                                        <input type="text" id="name" name="name" class="form-control" required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="apellido" class="form-label">Apellido:</label>
+                                        <input type="text" id="apellido" name="apellido" class="form-control"
+                                            required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email:</label>
+                                        <input type="email" id="email" name="email" class="form-control" required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="direccion" class="form-label">Direccion:</label>
+                                        <input type="text" id="direccion" name="direccion" class="form-control"
+                                            required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="telefono" class="form-label">Telefono:</label>
+                                        <input type="tel" id="telefono" name="telefono" class="form-control" required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="password" class="form-label">Contraseña:</label>
+                                        <input type="password" id="password" name="password" class="form-control"
+                                            required />
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary">Registrarse</button>
+                                        <button type="reset" class="btn btn-secondary">Borrar</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <label for="apellido" class="form-label">Apellido:</label>
-                            <input type="text" id="apellido" name="apellido" class="form-control" required />
-                        </div>
-                        <div class="col-md-6">
-                            <label for="email" class="form-label">Email:</label>
-                            <input type="email" id="email" name="email" class="form-control" required />
-                        </div>
-                        <div class="col-md-6">
-                            <label for="direccion" class="form-label">Direccion:</label>
-                            <input type="text" id="direccion" name="direccion" class="form-control" required />
-                        </div>
-                        <div class="col-md-6">
-                            <label for="telefono" class="form-label">Telefono:</label>
-                            <input type="tel" id="telefono" name="telefono" class="form-control" required />
-                        </div>
-                        <div class="col-md-6">
-                            <label for="password" class="form-label">Contraseña:</label>
-                            <input type="password" id="password" name="password" class="form-control" required />
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-primary">Registrarse</button>
-                            <button type="reset" class="btn btn-secondary">Reiniciar</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </section>
         </main>
 
         <!--Pie de pagina-->
         <footer>
-            <div class="container d-flex flex-column align-items-center py-3">
-                <div class="social-icons mb-2">
-                    <a href="https://twitter.com" target="_blank" class="text-white me-3"><i class="fa fa-twitter"
-                            aria-hidden="true"></i></a>
-                    <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="fa fa-facebook"
-                            aria-hidden="true"></i></a>
-                    <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="fa fa-instagram"
-                            aria-hidden="true"></i></a>
-                    <a href="https://youtube.com" target="_blank" class="text-white me-3"><i class="fa fa-youtube"
-                            aria-hidden="true"></i></a>
-                    <a href="https://WhatsApp.com" target="_blank" class="text-white"><i class="fa fa-whatsapp"
-                            aria-hidden="true"></i></a>
+            <section id="redes-sociales" class="py-5">
+                <div class="container">
+                    <h2 class="text-center mb-4">Síguenos en redes sociales</h2>
+                    <div class="row justify-content-center">
+                        <div class="icono col-3 col-md-3 text-center">
+                            <a href="https://facebook.com" target="_blank" class="text-white social-icon"><i
+                                    class="fab fa-facebook fa-3x"></i></a>
+                        </div>
+                        <div class="icono col-3 col-md-3 text-center">
+                            <a href="https://twitter.com" target="_blank" class="text-white social-icon"><i
+                                    class="fab fa-twitter fa-3x"></i></a>
+                        </div>
+                        <div class="icono col-3 col-md-3 text-center">
+                            <a href="https://wa.me" target="_blank" class="text-white social-icon"><i
+                                    class="fab fa-whatsapp fa-3x"></i></a>
+                        </div>
+                        <div class="icono col-3 col-md-3 text-center">
+                            <a href="https://youtube.com" target="_blank" class="text-white social-icon"><i
+                                    class="fab fa-youtube fa-3x"></i></a>
+                        </div>
+                    </div>
                 </div>
+
+                </div>
+                <br>
                 <p class="mb-0">&copy; Derechos reservados - Muchachos.Web - 2024.</p>
-            </div>
+                </div>
+            </section>
+
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

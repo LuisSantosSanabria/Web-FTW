@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    padding-top: 20px;
     background-color: #f3f4f6;
     background-image: url('imagenes/Fondo2.jpg');
     background-size: cover;
@@ -14,9 +15,8 @@ html {
 }
 
 .logo {
-    
-    height: 150px;
-    max-width: 300px;
+    height: 75px;
+    max-width: 150px;
     object-fit: contain;
 }
 
@@ -39,20 +39,30 @@ header {
     padding: 0;
 }
 
+.navbar-brand {
+    color: #ffffff;
+    font-family: "Coiny", system-ui; /* font de google*/
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.navbar-brand:hover {
+    color: #8610d4;
+}
+
+
 /* Navegacion */
 nav {
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(242, 244, 245, 0.1);
     border-radius: 8px;
 }
 
 nav ul li a {
     color: #ffffff !important;
-    text-decoration: none;
     font-weight: bold !important;
-    transition: color 0.3s ease, background-color 0.3s ease;
     padding: 8px 12px;
 }
 
@@ -133,6 +143,16 @@ section {
     transform: scale(1.05);
 }
 
+#zapatillas .container, 
+#ropa .container,
+#accesorios .container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 /* Registro y Acerca de */
 #register .container,
 #about .container {
@@ -160,11 +180,29 @@ footer {
     background-color: rgba(151, 24, 224, 0.6);
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    bottom: 0;
+    padding:0;
 }
+
+/*para los iconos de redes sociales */
+.icono {
+    transition: transform 0.3s ease-in-out;
+    height:auto
+}
+
+.icono:hover {
+    transform: scale(1.5);
+}
+
+.social-icon i {
+    font-size: 50px;
+}
+
+
+footer h2 {
+    font-family: "Coiny", system-ui;
+    font-size: 18px;
+}
+
 
 /* Botones */
 button {
@@ -209,7 +247,7 @@ textarea:focus {
     box-shadow: 0 0 5px rgba(151, 24, 224, 0.5);
 }
 
-#register {
+#register .register-content {
     border: 1px solid rgba(151, 24, 224, 0.8);
     background-color: rgba(151, 24, 224, 0.1);
     padding: 20px;
