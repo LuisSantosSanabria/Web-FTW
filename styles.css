@@ -40,6 +40,17 @@ header {
     padding: 0;
 }
 
+/*Carrito*/
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #ffffff;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
 /*hamburguesa de nav*/
 .navbar-toggler .navbar-toggler {
     position: relative;
