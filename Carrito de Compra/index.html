@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Tienda</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="E:\Users\USUARIO\Desktop\Prueba 3\Pagina FTW">
+    </head>
+    <body>
+        <header class="navbar">
+            <h1>Tienda</h1>
+            <div id="header">
+                <ul class="nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#Remeras">Remeras</a></li>
+                    <li><a href="#Buzos">Buzos</a></li>
+                    <li><a href="#Pantalones">Pantalones</a></li>
+                    <li><a href="#Shorts">Shorts</a></li>
+                    <li><a href="#Zapatillas">Zapatillas</a></li>
+                    <li><a href="#Accesorios">Accesorios</a></li>
+                </ul>
+            </div>
+            <div class="container-icon">
+                <div class="container-cart-icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon-cart">
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                    </svg>
+                    <div class="count-products">
+                        <span id="contador-productos">0</span>
+                    </div>
+                </div>
+
+                <div class="container-cart-products hidden-cart">
+                    <div class="row-product hidden">
+                        <div class="cart-product">
+                            <div class="info-cart-product">
+                                <span class="cantidad-producto-carrito">1</span>
+                                <p class="titulo-producto-carrito">Zapatos
+                                    Nike</p>
+                                <span class="precio-producto-carrito">$80</span>
+                            </div>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="icon-close">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="cart-total hidden">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$200</span>
+                    </div>
+                    <p class="cart-empty">El carrito está vacío</p>
+                </div>
+            </div>
+        </header>
+        <!--Banner-->
+        <div class="Banner">
+            <br><br><br>
+            <img src="E:\Users\USUARIO\Desktop\Prueba 3\Pagina FTW\imagenes\Banner.png"
+                alt="Banner">
+        </div>
+        <div class="container-items">
+            <br><h1 id="Remeras">Remeras </h1><br>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Remera 1.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Remera Deportiva</h2>
+                    <p class="price">$80</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Remera 6.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Remera de entrenamiento UnderAmour</h2>
+                    <p class="price">$50</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Remera 3.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Remera de futbol Brighton</h2>
+                    <p class="price">$85</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Remera 4.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Remera de entrenamiento Nike</h2>
+                    <p class="price">$60</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Remera 2.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Remera de futbol Australia</h2>
+                    <p class="price">$70</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Remera 5.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Remera de entrenamiento Femenina</h2>
+                    <p class="price">$50</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <br><h1 id="Buzos">Buzos</h1><br>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Buzo 1.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Buzo Topper</h2>
+                    <p class="price">$80</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Buzo 4.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Buzo Rosa</h2>
+                    <p class="price">$70</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Buzo 2.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Buzo de entrenamiento</h2>
+                    <p class="price">$65</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Buzo 5.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Buzo corto Nike</h2>
+                    <p class="price">$60</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Buzo 3.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Buzo gris Puma</h2>
+                    <p class="price">$50</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Buzo 6.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Buzo violeta Puma</h2>
+                    <p class="price">$65</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <br><h1 id="Pantalones">Pantalones</h1><br>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Pantalon 6.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Pantalon Toper</h2>
+                    <p class="price">$40</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Pantalon 3.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Pantalon Adidas</h2>
+                    <p class="price">$45</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Pantalon 5.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Pantalor Nike Air</h2>
+                    <p class="price">$50</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Pantalon 2.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Pantalon Air Jordan</h2>
+                    <p class="price">$60</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Pantalon 4.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Pantalon Violeta</h2>
+                    <p class="price">$40</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Pantalon 1.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Pantalon Nike</h2>
+                    <p class="price">$50</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <br><h1 id="Shorts">Shorts</h1><br>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Short 3.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Short Puma</h2>
+                    <p class="price">$30</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Short 4.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Short Corto</h2>
+                    <p class="price">$25</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Short 2.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Short Azul</h2>
+                    <p class="price">$20</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Short 5.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Short Rosa</h2>
+                    <p class="price">$30</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Short 1.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Short de futbol</h2>
+                    <p class="price">$40</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Short 6.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Short corto</h2>
+                    <p class="price">$35</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <br><h1 id="Zapatillas">Zapatillas</h1><br>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Zapatilla 2.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Air Jordan 1</h2>
+                    <p class="price">$300</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Zapatilla 5.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Air Jordan 23 Rosa</h2>
+                    <p class="price">$450</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Zapatilla 3.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Zapatillas de Basquet Azul</h2>
+                    <p class="price">$250</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Zapatilla 1.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Zapatillas Nike Street</h2>
+                    <p class="price">$250</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Zapatilla 6.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Zapatillas Nike Azul</h2>
+                    <p class="price">$220</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Zapatilla 4.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Zapatillas Puma Rosas</h2>
+                    <p class="price">$250</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <br><h1 id="Accesorios">Accesorios</h1><br>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Accesorio 5.jpg"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Medias Air Jordan</h2>
+                    <p class="price">$20</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Accesorio 3.jpg"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Mochila</h2>
+                    <p class="price">$30</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Accesorio 2.png"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Anteojos de sol</h2>
+                    <p class="price">$15</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Accesorio 1.jpg"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Anteojos de sol</h2>
+                    <p class="price">$10</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Accesorio 6.jpg"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Medias Nike</h2>
+                    <p class="price">$20</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img
+                        src="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra\Productos\Accesorio 4.jpg"
+                        alt="producto" />
+                </figure>
+                <div class="info-product">
+                    <h2>Mochila UnderAmour</h2>
+                    <p class="price">$40</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

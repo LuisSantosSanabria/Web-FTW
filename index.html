@@ -1,447 +1,585 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <script src="https://kit.fontawesome.com/667641f4c9.js" crossorigin="anonymous"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="imagenes/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon-16x16.png" />
-    <link rel="manifest" href="imagenes/site.webmanifest" />
+    <head>
+        <script src="https://kit.fontawesome.com/667641f4c9.js"
+            crossorigin="anonymous"></script>
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="imagenes/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="imagenes/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="imagenes/favicon-16x16.png" />
+        <link rel="manifest" href="imagenes/site.webmanifest" />
+        
+        <link rel="stylesheet" href="E:\Users\USUARIO\Desktop\Prueba 3\Carrito de Compra">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
-    <title>FTW - Ropa del West</title>
-    <!--cdn de btrp-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <!--Hoja de estilo-->   
+        <title>FTW - Ropa del West</title>
+        <!--cdn de btrp-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+        <!--Hoja de estilo-->
         <link rel="stylesheet" href="styles.css" />
 
-    <!--Tipografias de google-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Tipografias de google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="hoja de estilo">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Coiny&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="hoja de estilo">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Coiny&family=Oi&family=Protest+Riot&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
 
-</head>
+    </head>
 
-<body>
-    <header>
-        <div class="cabecera container d-flex justify-content-between align-items-center py-3"></div>
-        <!--Barra de navehgacion-->
-        <header class="bg-body-tertiary py-3 fixed-top">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-                <img src="imagenes/LogoG.png" alt="FromTheWest" class="logo" />
-                <nav class="navbar navbar-expand-md">
-                    <div class="container-fluid">
-                        <a class="navbar-brand ms-3" href="#ftwNav">FTW-TIENDA</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-wrap">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#nosotros">Nosotros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#zapatillas">Zapatillas</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#ropa">Ropa</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#accesorios">Accesorios</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#register">Registro</a>
-                                </li>
-                            </ul>
+    <body>
+        <header>
+            <div
+                class="cabecera container d-flex justify-content-between align-items-center py-3"></div>
+            <!--Barra de navehgacion-->
+            <header class="bg-body-tertiary py-3 fixed-top">
+                <div
+                    class="container-fluid d-flex justify-content-between align-items-center">
+                    <img src="imagenes/LogoG.png" alt="FromTheWest"
+                        class="logo" />
+                    <nav class="navbar navbar-expand-md">
+                        <div class="container-fluid">
+                            <a class="navbar-brand ms-3"
+                                href="#ftwNav">FTW-TIENDA</a>
+                            <button class="navbar-toggler" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler"></span>
+                            </button>
+                            <div class="collapse navbar-collapse"
+                                id="navbarSupportedContent">
+                                <ul
+                                    class="navbar-nav me-auto mb-2 mb-lg-0 flex-wrap">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page"
+                                            href="#inicio">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="#nosotros">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="#zapatillas">Zapatillas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="#ropa">Ropa</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="#accesorios">Accesorios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"
+                                            href="#register">Registro</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <!--carrito-->
+                                        <a class="nav-link" href="Carrito de Compra/index.html">Tienda</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </nav>
-            </div>
-        </header>
-
-        <main>
-            <!--Banner-->
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="imagenes/Banner3.png " class="d-block w-100" alt="Banner">
+                    </nav>
                 </div>
-            </div>
 
-            <!--Producto descatado-->
-            <section id="inicio" class="content-section py-5">
-                <div class="container">
-                    <h2 class="mb-4">Productos destacados</h2>
-                    <!--Carrusel-->
-                    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="imagenes/MochilaAdidas.jpg" class="d-block w-100" alt="Mochila Adidas" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="imagenes/GorraDC.jpg" class="d-block w-100" alt="Gorra DC" />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="imagenes/AdidasCampus.png" class="d-block w-100" alt="Adidas Campus" />
-                            </div>
-                        </div>
-                        <!--Controles de carrusel-->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-            </section>
+            </header>
 
-            <!-- Sobre nosotros -->
-            <section id="nosotros" class="content-section py-5">
-                <div class="Nosotros card mt-5 mx-auto">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="imagenes/LogoG.png" class="img-fluid rounded-start" alt="logo" />
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Bienvenidos al FTW del West</h5>
-                                <p class="card-text">
-                                    Somos una tienda en línea especializada en ropa de Primera
-                                    marca: Nike, Adidas, Under Armor, Champions, Somos una
-                                    tienda en línea especializada en ropa de Primera marca:
-                                    Nike, Adidas, Under Armor, Champions, Somos una tienda en
-                                    línea especializada en ropa de Primera marca: Nike, Adidas,
-                                    Under Armor, Champions.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--Seccion Zapas-->
-            <section id="zapatillas" class="content-section py-5">
-                <div class="container">
-                    <h2 class="mb-4">Zapatillas</h2>
-                    <div class="Producto col-lg-10 mb-4">
-                        <img src="imagenes/AdidasCampus.png" alt="AdidasCampus" class="img-fluid" />
-                        <h3>Adidas Campus</h3>
-                        <p>Todos los colores disponibles, talles también.</p>
-                        <p>Precio: $51.000</p>
-                        <button class="btn btn-primary">Añadir al carrito</button>
+            <main>
+                <!--Banner-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="imagenes/Banner3.png " class="d-block w-100"
+                            alt="Banner">
                     </div>
                 </div>
 
-                <!-- card de zapas-->
-                <div class="container">
-                    <h2 class="mb-3">Modelos</h2>
-                    <div class="row">
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/convers.jpg" alt="Zapatillas" class="img-fluid" />
-                                <h3>Zapatillas Converse</h3>
-                                <p>Las Chuck 70 combinan los mejores detalles de las Chuck de los 70 con una confección
-                                    artesanal impecable y materiales premium.</p>
-                                <p>Precio: $15.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
+                <!--Producto descatado-->
+                <section id="inicio" class="content-section py-5">
+                    <div class="container">
+                        <h2 class="mb-4">Productos destacados</h2>
+                        <!--Carrusel-->
+                        <div id="carousel" class="carousel slide"
+                            data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imagenes/MochilaAdidas.jpg"
+                                        class="d-block w-100"
+                                        alt="Mochila Adidas" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imagenes/GorraDC.jpg"
+                                        class="d-block w-100" alt="Gorra DC" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imagenes/AdidasCampus.png"
+                                        class="d-block w-100"
+                                        alt="Adidas Campus" />
+                                </div>
                             </div>
+                            <!--Controles de carrusel-->
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/Vans.jpg" alt="Zapatillas" class="img-fluid" />
-                                <h3>Vans Clasic</h3>
-                                <p>Las Chuck 70 combinan los mejores detalles de las Chuck de los 70 con una confección
-                                    artesanal impecable y materiales premium.</p>
-                                <p>Precio: $35.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/Jordan4.jpg" alt="Zapatillas" class="img-fluid" />
-                                <h3>Zapas Jordan Retro 4</h3>
-                                <p>Las de mejores detalles con una confección artesanal impecable y materiales premium.
-                                </p>
-                                <p>Precio: $70.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/NIkeSb.jpg" alt="Zapatillas" class="img-fluid" />
-                                <h3>Nike Stefan Janosky Sb</h3>
-                                <p>Las Chuck 70 combinan los mejores detalles de las Chuck de los 70 con una confección
-                                    artesanal impecable y materiales premium.</p>
-                                <p>Precio: $100.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                    </section>
 
-
-
-            <!--Seccion ropa-->
-            <section id="ropa" class="content-section py-5">
-                <div class="container">
-                    <h2 class="mb-4">Ropa</h2>
-                    <div class="Producto col-lg-10 mb-4">
-                        <img src="imagenes/BuzoPuma2.jpg" alt="BuzoPuma" class="img-fluid" />
-                        <h3>Buzo Adidas Retro</h3>
-                        <p>Todos los colores disponibles, talles tambien.</p>
-                        <p>Precio: $51.000</p>
-                        <button class="btn btn-primary">Añadir al carrito</button>
-                    </div>
-                </div>
-
-                <!-- card de ropa-->
-                <div class="container">
-                    <h2 class="mb-3">Modelos</h2>
-                    <div class="row">
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/BuzoVans.jpg" alt="ropa" class="img-fluid" />
-                                <h3>Buzo Vans</h3>
-                                <p>Las Chuck 70 combinan los mejores detalles de las Chuck de los 70 con una confección
-                                    artesanal impecable y materiales premium.</p>
-                                <p>Precio: $15.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/BuzoPuma.jpg" alt="ropa" class="img-fluid" />
-                                <h3>Vans Clasic</h3>
-                                <p>Las Chuck 70 combinan los mejores detalles de las Chuck de los 70 con una confección
-                                    artesanal impecable y materiales premium.</p>
-                                <p>Precio: $35.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/BuzoAdidas.jpg" alt="ropa" class="img-fluid" />
-                                <h3>Zapas Jordan Retro 4</h3>
-                                <p>Las de mejores detalles con una confección artesanal impecable y materiales premium.
-                                </p>
-                                <p>Precio: $70.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/BuzoNike.jpg" alt="ropa" class="img-fluid" />
-                                <h3>Nike Stefan Janosky Sb</h3>
-                                <p>Las Chuck 70 combinan los mejores detalles de las Chuck de los 70 con una confección
-                                    artesanal impecable y materiales premium.</p>
-                                <p>Precio: $100.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--Seccion accesorios-->
-            <section id="accesorios" class="content-section py-5">
-                <div class="container">
-                    <h2 class="mb-4">Accesorios</h2>
-                    <div class="Producto col-lg-10 mb-4">
-                        <img src="imagenes/GorraDC.jpg" alt="BuzoPuma" class="img-fluid" />
-                        <h3>Gorra DC</h3>
-                        <p>Todos los colores disponibles, talles tambien.</p>
-                        <p>Precio: $30.000</p>
-                        <button class="btn btn-primary">Añadir al carrito</button>
-                    </div>
-                </div>
-
-                <!-- card de accesorios-->
-                <div class="container">
-                    <h2 class="mb-3">Modelos</h2>
-                    <div class="row">
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/MochilaAdidas.jpg" alt="accesorios" class="img-fluid" />
-                                <h3>Mochila Adidas</h3>
-                                <p>Detalles de las Chuck con artesanal impecable y materiales premium.</p>
-                                <p>Precio: $15.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/GorraVans.jpg" alt="accesorios" class="img-fluid" />
-                                <h3>Vans Gorra</h3>
-                                <p>Gorra en todos los colores bla bla.</p>
-                                <p>Precio: $35.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/Mariconera.jpg" alt="ropa" class="img-fluid" />
-                                <h3>Cartera Nike Sb</h3>
-                                <p>Las de mejores detalles con una confección artesanal impecable.
-                                </p>
-                                <p>Precio: $70.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-6 col-lg-3 mb-4">
-                            <div class="Producto">
-                                <img src="imagenes/Lentes.jpg" alt="ropa" class="img-fluid" />
-                                <h3>Lentes Quiksilver</h3>
-                                <p>Lentes de sol para dias nublados.</p>
-                                <p>Precio: $100.000</p>
-                                <button class="btn btn-primary">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--Seccion Mapa-->
-            <section id="about" class="content-section py-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>Nos podes encontrar</h2>
-                            <div id="mapa" class="mb-4">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.74046950556!2d-58.54116116139388!3d-34.88786287296668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd70a498ea111%3A0xa24bb37b20354e11!2sLa%20Bombonera!5e0!3m2!1ses-419!2sar!4v1715971426525!5m2!1ses-419!2sar"
-                                    width="100%" height="400" style="border: 0" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--Seccion Video-->
-            <section id="about" class="content-section py-5">
-                <div class="container mt-5 mx-auto">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>Publicidad</h3>
-                            <div id="video" class="mb-4"></div>
-                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/A8CDVkV5pso"
-                                title="Video Promocional (Spot Publicitario)" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--Seccion de Registro-->
-            <section id="register" class="content-section py-5">
-                <div class="container">
-                    <h2 class="mb-4 text-center">Registro de Usuario</h2>
-                    <div class="row justify-content-center">
-                        <div class="col-sm-12 col-md-12">
-                            <div class="register-content p-4">
-                                <form action="show_data.html" target="_blank" class="row g-3">
-                                    <div class="col-md-6">
-                                        <label for="name" class="form-label">Nombre:</label>
-                                        <input type="text" id="name" name="name" class="form-control" required />
+                    <!-- Sobre nosotros -->
+                    <section id="nosotros" class="content-section py-5">
+                        <div class="Nosotros card mt-5 mx-auto">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="imagenes/LogoG.png"
+                                        class="img-fluid rounded-start"
+                                        alt="logo" />
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bienvenidos al
+                                            FTW del West</h5>
+                                        <p class="card-text">
+                                            Somos una tienda en línea
+                                            especializada en ropa de Primera
+                                            marca: Nike, Adidas, Under Armor,
+                                            Champions, Somos una
+                                            tienda en línea especializada en
+                                            ropa de Primera marca:
+                                            Nike, Adidas, Under Armor,
+                                            Champions, Somos una tienda en
+                                            línea especializada en ropa de
+                                            Primera marca: Nike, Adidas,
+                                            Under Armor, Champions.
+                                        </p>
                                     </div>
-                                    <div class="col-md-6">
-                                        <label for="apellido" class="form-label">Apellido:</label>
-                                        <input type="text" id="apellido" name="apellido" class="form-control"
-                                            required />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="email" class="form-label">Email:</label>
-                                        <input type="email" id="email" name="email" class="form-control" required />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="direccion" class="form-label">Direccion:</label>
-                                        <input type="text" id="direccion" name="direccion" class="form-control"
-                                            required />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="telefono" class="form-label">Telefono:</label>
-                                        <input type="tel" id="telefono" name="telefono" class="form-control" required />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="password" class="form-label">Contraseña:</label>
-                                        <input type="password" id="password" name="password" class="form-control"
-                                            required />
-                                    </div>
-                                    <div class="col-12 text-center">
-                                        <button type="submit" class="btn btn-primary">Registrarse</button>
-                                        <button type="reset" class="btn btn-secondary">Borrar</button>
-                                    </div>
-                                </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+                    </section>
 
-        <!--Pie de pagina-->
-        <footer>
-            <section id="redes-sociales" class="py-5">
-                <div class="container">
-                    <h2 class="text-center mb-4">Síguenos en redes sociales</h2>
-                    <div class="row justify-content-center">
-                        <div class="icono col-3 col-md-3 text-center">
-                            <a href="https://facebook.com" target="_blank" class="text-white social-icon"><i
-                                    class="fab fa-facebook fa-3x"></i></a>
-                        </div>
-                        <div class="icono col-3 col-md-3 text-center">
-                            <a href="https://twitter.com" target="_blank" class="text-white social-icon"><i
-                                    class="fab fa-twitter fa-3x"></i></a>
-                        </div>
-                        <div class="icono col-3 col-md-3 text-center">
-                            <a href="https://wa.me" target="_blank" class="text-white social-icon"><i
-                                    class="fab fa-whatsapp fa-3x"></i></a>
-                        </div>
-                        <div class="icono col-3 col-md-3 text-center">
-                            <a href="https://youtube.com" target="_blank" class="text-white social-icon"><i
-                                    class="fab fa-youtube fa-3x"></i></a>
-                        </div>
-                    </div>
-                </div>
+                    <!--Seccion Zapas-->
+                    <section id="zapatillas" class="content-section py-5">
+                        <div class="container">
+                            <h2 class="mb-4">Zapatillas</h2>
+                            <div class="Producto col-lg-10 mb-4">
+                                <img src="imagenes/AdidasCampus.png"
+                                    alt="AdidasCampus" class="img-fluid" />
+                                <h3>Adidas Campus</h3>
+                                <p>Todos los colores disponibles, talles
+                                    también.</p>
+                                <p>Precio: $51.000</p>
 
-                </div>
-                <br>
-                <p class="mb-0">&copy; Derechos reservados - Muchachos.Web - 2024.</p>
+                            </div>
+                        </div>
+
+                        <!-- card de zapas-->
+                        <div class="container">
+                            <h2 class="mb-3">Modelos</h2>
+                            <div class="row">
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/convers.jpg"
+                                            alt="Zapatillas"
+                                            class="img-fluid" />
+                                        <h3>Zapatillas Converse</h3>
+                                        <p>Las Chuck 70 combinan los mejores
+                                            detalles de las Chuck de los 70 con
+                                            una confección
+                                            artesanal impecable y materiales
+                                            premium.</p>
+                                        <p>Precio: $15.000</p>
+                    
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/Vans.jpg"
+                                            alt="Zapatillas"
+                                            class="img-fluid" />
+                                        <h3>Vans Clasic</h3>
+                                        <p>Las Chuck 70 combinan los mejores
+                                            detalles de las Chuck de los 70 con
+                                            una confección
+                                            artesanal impecable y materiales
+                                            premium.</p>
+                                        <p>Precio: $35.000</p>
+                                 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/Jordan4.jpg"
+                                            alt="Zapatillas"
+                                            class="img-fluid" />
+                                        <h3>Zapas Jordan Retro 4</h3>
+                                        <p>Las de mejores detalles con una
+                                            confección artesanal impecable y
+                                            materiales premium.
+                                        </p>
+                                        <p>Precio: $70.000</p>
+                           
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/NIkeSb.jpg"
+                                            alt="Zapatillas"
+                                            class="img-fluid" />
+                                        <h3>Nike Stefan Janosky Sb</h3>
+                                        <p>Las Chuck 70 combinan los mejores
+                                            detalles de las Chuck de los 70 con
+                                            una confección
+                                            artesanal impecable y materiales
+                                            premium.</p>
+                                        <p>Precio: $100.000</p>
+                              
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--Seccion ropa-->
+                    <section id="ropa" class="content-section py-5">
+                        <div class="container">
+                            <h2 class="mb-4">Ropa</h2>
+                            <div class="Producto col-lg-10 mb-4">
+                                <img src="imagenes/BuzoPuma2.jpg" alt="BuzoPuma"
+                                    class="img-fluid" />
+                                <h3>Buzo Adidas Retro</h3>
+                                <p>Todos los colores disponibles, talles
+                                    tambien.</p>
+                                <p>Precio: $51.000</p>
+                       
+                            </div>
+                        </div>
+
+                        <!-- card de ropa-->
+                        <div class="container">
+                            <h2 class="mb-3">Modelos</h2>
+                            <div class="row">
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/BuzoVans.jpg"
+                                            alt="ropa" class="img-fluid" />
+                                        <h3>Buzo Vans</h3>
+                                        <p>Las Chuck 70 combinan los mejores
+                                            detalles de las Chuck de los 70 con
+                                            una confección
+                                            artesanal impecable y materiales
+                                            premium.</p>
+                                        <p>Precio: $15.000</p>
+                          
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/BuzoPuma.jpg"
+                                            alt="ropa" class="img-fluid" />
+                                        <h3>Vans Clasic</h3>
+                                        <p>Las Chuck 70 combinan los mejores
+                                            detalles de las Chuck de los 70 con
+                                            una confección
+                                            artesanal impecable y materiales
+                                            premium.</p>
+                                        <p>Precio: $35.000</p>
+            
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/BuzoAdidas.jpg"
+                                            alt="ropa" class="img-fluid" />
+                                        <h3>Zapas Jordan Retro 4</h3>
+                                        <p>Las de mejores detalles con una
+                                            confección artesanal impecable y
+                                            materiales premium.
+                                        </p>
+                                        <p>Precio: $70.000</p>
+               
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/BuzoNike.jpg"
+                                            alt="ropa" class="img-fluid" />
+                                        <h3>Nike Stefan Janosky Sb</h3>
+                                        <p>Las Chuck 70 combinan los mejores
+                                            detalles de las Chuck de los 70 con
+                                            una confección
+                                            artesanal impecable y materiales
+                                            premium.</p>
+                                        <p>Precio: $100.000</p>
+                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--Seccion accesorios-->
+                    <section id="accesorios" class="content-section py-5">
+                        <div class="container">
+                            <h2 class="mb-4">Accesorios</h2>
+                            <div class="Producto col-lg-10 mb-4">
+                                <img src="imagenes/GorraDC.jpg" alt="BuzoPuma"
+                                    class="img-fluid" />
+                                <h3>Gorra DC</h3>
+                                <p>Todos los colores disponibles, talles
+                                    tambien.</p>
+                                <p>Precio: $30.000</p>
+         
+                            </div>
+                        </div>
+
+                        <!-- card de accesorios-->
+                        <div class="container">
+                            <h2 class="mb-3">Modelos</h2>
+                            <div class="row">
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/MochilaAdidas.jpg"
+                                            alt="accesorios"
+                                            class="img-fluid" />
+                                        <h3>Mochila Adidas</h3>
+                                        <p>Detalles de las Chuck con artesanal
+                                            impecable y materiales premium.</p>
+                                        <p>Precio: $15.000</p>
+                  
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/GorraVans.jpg"
+                                            alt="accesorios"
+                                            class="img-fluid" />
+                                        <h3>Vans Gorra</h3>
+                                        <p>Gorra en todos los colores bla
+                                            bla.</p>
+                                        <p>Precio: $35.000</p>
+                     
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/Mariconera.jpg"
+                                            alt="ropa" class="img-fluid" />
+                                        <h3>Cartera Nike Sb</h3>
+                                        <p>Las de mejores detalles con una
+                                            confección artesanal impecable.
+                                        </p>
+                                        <p>Precio: $70.000</p>
+                 
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6 col-lg-3 mb-4">
+                                    <div class="Producto">
+                                        <img src="imagenes/Lentes.jpg"
+                                            alt="ropa" class="img-fluid" />
+                                        <h3>Lentes Quiksilver</h3>
+                                        <p>Lentes de sol para dias nublados.</p>
+                                        <p>Precio: $100.000</p>
+                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--Seccion Mapa-->
+                    <section id="about" class="content-section py-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2>Nos podes encontrar</h2>
+                                    <div id="mapa" class="mb-4">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.74046950556!2d-58.54116116139388!3d-34.88786287296668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd70a498ea111%3A0xa24bb37b20354e11!2sLa%20Bombonera!5e0!3m2!1ses-419!2sar!4v1715971426525!5m2!1ses-419!2sar"
+                                            width="100%" height="400"
+                                            style="border: 0" allowfullscreen
+                                            loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--Seccion Video-->
+                    <section id="about" class="content-section py-5">
+                        <div class="container mt-5 mx-auto">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>Publicidad</h3>
+                                    <div id="video" class="mb-4"></div>
+                                    <iframe width="100%" height="350"
+                                        src="https://www.youtube.com/embed/A8CDVkV5pso"
+                                        title="Video Promocional (Spot Publicitario)"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--Seccion de Registro-->
+                    <section id="register" class="content-section py-5">
+                        <div class="container">
+                            <h2 class="mb-4 text-center">Registro de
+                                Usuario</h2>
+                            <div class="row justify-content-center">
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="register-content p-4">
+                                        <form action="show_data.html"
+                                            target="_blank" class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="name"
+                                                    class="form-label">Nombre:</label>
+                                                <input type="text" id="name"
+                                                    name="name"
+                                                    class="form-control"
+                                                    required />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="apellido"
+                                                    class="form-label">Apellido:</label>
+                                                <input type="text" id="apellido"
+                                                    name="apellido"
+                                                    class="form-control"
+                                                    required />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="email"
+                                                    class="form-label">Email:</label>
+                                                <input type="email" id="email"
+                                                    name="email"
+                                                    class="form-control"
+                                                    required />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="direccion"
+                                                    class="form-label">Direccion:</label>
+                                                <input type="text"
+                                                    id="direccion"
+                                                    name="direccion"
+                                                    class="form-control"
+                                                    required />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="telefono"
+                                                    class="form-label">Telefono:</label>
+                                                <input type="tel" id="telefono"
+                                                    name="telefono"
+                                                    class="form-control"
+                                                    required />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="password"
+                                                    class="form-label">Contraseña:</label>
+                                                <input type="password"
+                                                    id="password"
+                                                    name="password"
+                                                    class="form-control"
+                                                    required />
+                                            </div>
+                                            <div class="col-12 text-center">
+                                                <button type="submit"
+                                                    class="btn btn-primary">Registrarse</button>
+                                                <button type="reset"
+                                                    class="btn btn-secondary">Borrar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+
+                <!--Pie de pagina-->
+                <footer>
+                    <section id="redes-sociales" class="py-5">
+                        <div class="container">
+                            <h2 class="text-center mb-4">Síguenos en redes
+                                sociales</h2>
+                            <div class="row justify-content-center">
+                                <div class="icono col-3 col-md-3 text-center">
+                                    <a href="https://facebook.com"
+                                        target="_blank"
+                                        class="text-white social-icon"><i
+                                            class="fab fa-facebook fa-3x"></i></a>
+                                </div>
+                                <div class="icono col-3 col-md-3 text-center">
+                                    <a href="https://twitter.com"
+                                        target="_blank"
+                                        class="text-white social-icon"><i
+                                            class="fab fa-twitter fa-3x"></i></a>
+                                </div>
+                                <div class="icono col-3 col-md-3 text-center">
+                                    <a href="https://wa.me" target="_blank"
+                                        class="text-white social-icon"><i
+                                            class="fab fa-whatsapp fa-3x"></i></a>
+                                </div>
+                                <div class="icono col-3 col-md-3 text-center">
+                                    <a href="https://youtube.com"
+                                        target="_blank"
+                                        class="text-white social-icon"><i
+                                            class="fab fa-youtube fa-3x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <p class="mb-0">&copy; Derechos reservados - Muchachos.Web -
+                        2024.</p>
                 </div>
             </section>
 
         </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
-</body>
+            crossorigin="anonymous">
+        </script>
+    </body>
 
 </html>
